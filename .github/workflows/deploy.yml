@@ -18,5 +18,4 @@ jobs:
           cd /home/deployer/deploy/is-stack
           docker compose pull
           docker compose up -d
-          docker image prune -fx
 
